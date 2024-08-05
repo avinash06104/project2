@@ -1,17 +1,12 @@
 import React from 'react';
 
-const Header = () => {
+const Footer = () => {
   return (
-    <header>
-      <img src='https://logos-world.net/wp-content/uploads/2023/08/Pizza-Planet-Logo.png' id="img"></img>
-      <nav>
-        <ul>
-          <li><a href="#menu">Menu</a></li>
-          <li><a href="#cart">Cart</a></li>
-        </ul>
-      </nav>
-    </header>
+    <footer>
+      <p>&copy; 2024 Pizza Shop</p>
+      <p>Ph.no: 9788559881 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email: aviinashh.r@gmail.com</p>
+    </footer>
   );
 };
 
-export default Header;
+export default Footer;
